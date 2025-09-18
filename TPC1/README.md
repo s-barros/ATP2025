@@ -1,6 +1,6 @@
 # ATP2025
 
-# Título
-# Autor: nome, id, foto
-# Resumo: lista de parágrafos
-# Lista de resultados: links para os ficheiros da resolução
+## Título
+### Autor: nome, id, foto
+### Resumo: lista de parágrafos
+### Lista de resultados: links para os ficheiros da resolução
