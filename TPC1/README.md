@@ -1,6 +1,6 @@
 # TPC1: Comboio 
 
-<div style="display: flex; align-items: center; gap: 40px; justify-content: center">
+<div style="display: flex; align-items: center; justify-content: center">
   <img src="imagens/projetofinal.jpg" alt="foto" width="240"/>
   <img src="imagens/eu.jpg" alt="foto" width="148.8"/>
 </div>
