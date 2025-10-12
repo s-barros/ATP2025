@@ -44,7 +44,7 @@ while op != 0:
         else: 
             soma = 0
             i = 0
-            while i < len(res)-1:
+            while i < len(res):
                 soma = soma + res[i]
                 i = i + 1
             print(soma)
@@ -55,7 +55,7 @@ while op != 0:
         else:
             soma = 0
             i = 0
-            while i < len(res)-1:
+            while i < len(res):
                 soma = soma + res[i]
                 i = i + 1
             print(soma/len(res))
@@ -63,7 +63,7 @@ while op != 0:
     elif op == 5:
         i = 0
         num = res[0]
-        while i < len(res)-1:
+        while i < len(res):
             if res[i] > num:
                 num = res[i]
             i = i + 1
@@ -72,7 +72,7 @@ while op != 0:
     elif op == 6:
         i = 0
         num = res[0]
-        while i < len(res)-1:
+        while i < len(res):
             if res[i] < num:
                 num = res[i]
             i = i + 1
@@ -100,8 +100,8 @@ while op != 0:
         i = 0
         numproc = int(input("Que número é que procura?"))
         resp = -1
-        while i < len(res)-1 and resp == -1:
-            if numproc in res:
+        while i < len(res) and resp == -1:
+            if res[i] == numproc:
                 resp = i
             i = i + 1
         print(resp)
