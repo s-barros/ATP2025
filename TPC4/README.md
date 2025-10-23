@@ -1,7 +1,6 @@
-# Título
-## Autor: nome, id, foto
-## Resumo: lista de parágrafos
-## Lista de resultados: links para os ficheiros da resolução
+# Aplicação do cinema
+## Autor: Sara Barros, A111690
+## Lista de resultados: 
 
 ```python
 
