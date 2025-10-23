@@ -3,7 +3,7 @@
 ## Resumo: lista de parágrafos
 ## Lista de resultados: links para os ficheiros da resolução
 
-´´´python
+```python
 
 def listar(cinema):
     res = []
@@ -105,7 +105,7 @@ while op != 0:
 
 print("Bom filme!")
 
-´´´
+```
 
 
 
