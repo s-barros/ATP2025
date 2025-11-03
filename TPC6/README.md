@@ -1,6 +1,6 @@
-# App meteorológica
+# App de meteorologia
 ## Autor: Sara Belo Leal de Barros, A111690.
-## Resumo: Aplicação criada no vscode para fazer várias operações meteorológicas
+## Resumo: Aplicação criada no vscode para fazer diferentes operações relacionadas com meteorologia.
 ## Lista de resultados: 
 
 ```python
