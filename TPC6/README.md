@@ -78,14 +78,21 @@ def diasChuvosos(tabMeteo, p):
     return res
 
 #8
-def diasChuvosos(tabMeteo, p):
-    res = []
+def maxPeriodoCalor(tabMeteo, p):
     i = 0
+    n = 0
+    nmaior = 0
     while i < len(tabMeteo):
-        if tabMeteo[i][3] > p:
-            res.append((tabMeteo[i][0],tabMeteo[i][3]))
+        if tabMeteo[i][3] < p:
+            n = n + 1
+        else:
+            if n > nmaior:
+                nmaior = n
+            n = 0
         i = i + 1
-    return res
+    if n > nmaior:
+        nmaior = n  
+    return nmaior
 
 #9
 import matplotlib.pyplot as plt
@@ -165,10 +172,10 @@ while op != 0:
         print(diasChuvosos(tabMeteo1,p))
     if op == 8:
         p = float(input("Qual é o valor de p que vamos testar?"))
-        print(maxPeriodoCalor(tabMeteo1,0.3))
+        print(maxPeriodoCalor(tabMeteo1,p))
     if op == 9:
         grafTabMeteo(tabMeteo1)
-        
+
     op = int(input("""Olá :) O que vamos fazer hoje?
                 1) Tmédia em cada dia; 
                2) guarda tabela meteorológica em ficheiro; 
