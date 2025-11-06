@@ -51,15 +51,21 @@ def strCount(s, subs):
         if s[i:i+len(subs)] == subs:
             n = n + 1
         i = i + 1
-    return n
+    return 
+    
+print(strCount("catcowcat", "cat"))
+print(strCount("catcowcat", "cow"))
+print(strCount("catcowcat", "dog"))
 
 
 #b)
 
 def produtoM3(lista):
-    novo = sorted(lista) 
-    mul = novo[0]*novo[1]*novo[2]
+    lista.sort()
+    mul = lista[0]*lista[1]*lista[2]
     return mul
+
+print(produtoM3([12,3,7,10,12,8,9]))
 
 
 #c)
@@ -77,6 +83,9 @@ def reduxInt(n):
         n = soma
     return soma
 
+print(reduxInt(38))
+print(reduxInt(777))
+
 
 #d)
 
@@ -88,6 +97,9 @@ def myIndexOf(s1, s2):
             devolv = i
         i = i + 1
     return devolv
+
+print(myIndexOf("Hoje está um belo dia de sol!", "belo"))
+print(myIndexOf("Hoje está um belo dia de sol!", "chuva"))
 
 
 #3.a)
